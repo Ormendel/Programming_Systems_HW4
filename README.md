@@ -10,7 +10,11 @@ For more information, search in wiki!
 
 #### Bio:
 General information about TRIE: https://en.wikipedia.org/wiki/Trie
+
+
 Inspiration to my implemention for this assignment: https://www.geeksforgeeks.org/trie-insert-and-search/
+
+
 20 minutes of good explanation to TRIE Data Structure: https://www.youtube.com/watch?v=AXjmTQ8LEoI
 
 
