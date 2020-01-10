@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	if (argc == 2 && strcmp(argv[1], "r") == 0)
 		printInReverse = true;
 
-	char str[50];
+	char str[50];//Assuming 50 it's enough for buffersize
 	TrieNode* head = TrieNode_new();
 
 	FILE * file = fopen("Sources/input.txt", "r");
