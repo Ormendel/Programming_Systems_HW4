@@ -5,6 +5,7 @@
 
 int main(int argc, char* argv[])
 {
+	
 	bool printInReverse = false;
 	if (argc == 2 && strcmp(argv[1], "r") == 0)
 		printInReverse = true;
