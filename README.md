@@ -4,7 +4,9 @@
 
 In this project we get a text file from the user and return the words in Lexicographical order or reverse Lexicographical order, and the frequency of a word by using TRIE Data Structure.
 By getting text file from the user, the program computes the frequency of each word in the text and displays it as an output to the user after execute the running command ./frequency.
-***I assumed that the optimize length for a word is 50, hence for a word with length 60 not all of the characters will be scanned properly!
+
+
+***I assumed that the optimize length for a word is 50, hence for a word with length 60 for example, not all of the characters will be scanned properly!
 
 ### Note: The implementation of TRIE is by array of struct TrieNode, instead of HashMap as known in Wiki.
 For more information, search in wiki!
