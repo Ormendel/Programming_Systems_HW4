@@ -13,15 +13,23 @@ int main(int argc, char* argv[])
 	char str[50];//Assuming 50 it's enough for buffersize
 	TrieNode* head = TrieNode_new();
 
-	FILE * file = fopen("Sources/input.txt", "r");
-	if (file)
+	if (stdin)
 	{
-		while (fscanf(file, "%49s", str) == 1)
+		while (fscanf(stdin, "%49s", str) == 1)
 		{
-			TrieNode_insert(head, str);
+			TrieNode_insert(head,str);
 		}
-		fclose(file);
+		fclose(stdin);
 	}
+	// FILE * file = fopen("Sources/input.txt", "r");
+	// if (file)
+	// {
+	// 	while (fscanf(file, "%49s", str) == 1)
+	// 	{
+	// 		TrieNode_insert(head, str);
+	// 	}
+	// 	fclose(file);
+	// }
 
 	str[0] = '\0';
 	TrieNode_print(head, str, sizeof(str), printInReverse);
